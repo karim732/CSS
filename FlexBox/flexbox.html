@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box trick</title>
+    <style>
+        .flex {
+            display: flex;
+        }
+
+        .box {
+            height: 50px;
+            width: 50px;
+            border: 1px solid red;
+            background-color: rgba(255, 0, 0, .5);
+        }
+
+        .box:first-child {
+            margin-right: auto;
+            /* margin-left: auto; */
+        }
+
+        /* .box:nth-child(2) {
+            margin-right: auto;
+        }
+
+        .box:nth-child(n) {
+            margin-right: auto;
+        } */
+
+        .box:last-child {
+            margin-left: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex">
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+        <div class="box">
+
+        </div>
+    </div>
+
+</body>
+
+</html>
