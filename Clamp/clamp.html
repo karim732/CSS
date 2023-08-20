@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clamp</title>
+
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+
+        .box {
+            /* At any viewport or condition, width of box is between 300px and 400px with preferred value of 40% as first priority */
+            width: clamp(300px, 40%, 400px);
+            height: 100px;
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+
+    </div>
+
+
+</body>
+
+</html>
