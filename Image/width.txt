@@ -1,0 +1,19 @@
+To fit image to element in responsive
+
+
+<div
+                    style="background-color: #f6f4f5;display:-webkit-flex;display:-ms-flexbox;display: flex;align-items: center; padding-top: 60px;padding-bottom: 30px;padding-left: 5px;padding-right: 5px; column-gap: 10px;">
+                    <div style="max-width: 450px;">
+                        
+                            <p style="margin: 0;text-align: center;margin-top: 8px;margin-bottom: 8px;color: #74767B;font-size: 12px;">* Si
+                                ya realizó su pago, por favor omita este mensaje.</p>
+                        
+                    </div>
+                    <div>
+                        <img src="" alt="CONTENT_IMAGE_NEW" style="width: 247.5pt;height: 279pt;max-width: 100%;cursor: pointer;">
+                    </div>
+                    
+                </div>
+
+
+
